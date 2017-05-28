@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Longitudinal Ship Stability</string>
+    <string name="lcb_string">LCB(Longitudinal Centre of Buoyancy): It is regarded as the geometric center of the volume of the zone remaining under water and is the point through which all the buoyancy can be said to act vertically upwards.</string>
+    <string name="lcg_string">LCG(Longitudinal Centre of Gravity): This is the point through which all of the weight of the vessel can be said to act vertically downwards.</string>
+    <string name="lcf_string">LCF(Longitudinal Center of Floatation): Vessels are not generally symmetrical fore and aft, so they do not necessarily rotate about amidships when trimming. In fact, they rotate about a point called the LCF that is the centre of the shape of the waterline at which the vessel is floating.</string>
+    <string name="trim_string">
+</string>
+</resources>

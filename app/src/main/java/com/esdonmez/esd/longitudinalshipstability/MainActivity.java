@@ -11,7 +11,7 @@ import android.widget.RelativeLayout;
 
 public class MainActivity extends AppCompatActivity {
 
-    RelativeLayout loaButton, lcgButton, lcbButton, lcfButton, actualButton, changeButton;
+    RelativeLayout dimensionButton, longitudinalButton, transverseButton;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -22,45 +22,27 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
 
-        loaButton = (RelativeLayout) findViewById(R.id.loaButton);
-        lcgButton = (RelativeLayout) findViewById(R.id.lcgButton);
-        lcbButton = (RelativeLayout) findViewById(R.id.lcbButton);
-        lcfButton = (RelativeLayout) findViewById(R.id.lcfButton);
-        actualButton = (RelativeLayout) findViewById(R.id.actualButton);
-        changeButton = (RelativeLayout) findViewById(R.id.changeButton);
+        dimensionButton = (RelativeLayout) findViewById(R.id.dimensionButton);
+        longitudinalButton = (RelativeLayout) findViewById(R.id.longitudinalButton);
+        transverseButton = (RelativeLayout) findViewById(R.id.transverseButton);
 
-        loaButton.setOnClickListener(buttonListener);
-        lcgButton.setOnClickListener(buttonListener);
-        lcbButton.setOnClickListener(buttonListener);
-        lcfButton.setOnClickListener(buttonListener);
-        actualButton.setOnClickListener(buttonListener);
-        changeButton.setOnClickListener(buttonListener);
+        dimensionButton.setOnClickListener(buttonListener);
+        longitudinalButton.setOnClickListener(buttonListener);
+        transverseButton.setOnClickListener(buttonListener);
     }
 
     private View.OnClickListener buttonListener = new View.OnClickListener() {
         public void onClick(View v) {
-            if (v.getId() == R.id.loaButton) {
-                Intent i = new Intent(MainActivity.this, LOAActivity.class);
+            if (v.getId() == R.id.dimensionButton) {
+                Intent i = new Intent(MainActivity.this, DimensionsOfShipsActivity.class);
                 startActivity(i);
             }
-            else if (v.getId() == R.id.lcgButton) {
-                Intent i = new Intent(MainActivity.this, LCGActivity.class);
+            else if (v.getId() == R.id.longitudinalButton) {
+                Intent i = new Intent(MainActivity.this, LongitudinalStabilityActivity.class);
                 startActivity(i);
             }
-            else if (v.getId() == R.id.lcbButton) {
-                Intent i = new Intent(MainActivity.this, LCBActivity.class);
-                startActivity(i);
-            }
-            else if (v.getId() == R.id.lcfButton) {
-                Intent i = new Intent(MainActivity.this, LCFActivity.class);
-                startActivity(i);
-            }
-            else if (v.getId() == R.id.actualButton) {
-                Intent i = new Intent(MainActivity.this, TrimActivity.class);
-                startActivity(i);
-            }
-            else if (v.getId() == R.id.changeButton) {
-                Intent i = new Intent(MainActivity.this, TrimChangeActivity.class);
+            else if (v.getId() == R.id.transverseButton) {
+                Intent i = new Intent(MainActivity.this, TransverseStabilityActivity.class);
                 startActivity(i);
             }
         }

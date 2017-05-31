@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.esdonmez.esd.longitudinalshipstability.RightingArmActivity"
+    android:background="#fff"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/colorAccent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textAlignment="center"
+            android:text="Righting Arm"
+            android:textColor="#fff"
+            android:textSize="20sp"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:layout_weight="1">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/arm_image" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="1"
+        android:background="#ffffff">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#c1af2532"
+            android:layout_margin="10dp"
+            android:id="@+id/textLayout">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:text=" If a vessel floating in a vertical position lies on the side of the starboard or port with the effect of any external influences (wind or wave effect) and the weights on the ship are not displaced due to this laying, G point remains constant.Point B moves to the lying side of the new geometric center of the changing underwater area due to this slope and comes to a point such as B'.As shown in the figure, from the point G, a line perpendicular to the line of force passing through B is drawn vertically and called Z point at the point where this streak B 'cuts the line of force. This GZ distance is referred to as rectifier arm. The center of gravity and the buoyancy center forces act on the points G and Z to form the reciprocating moment of the ship. As you can see figure, if this arm is on the side where the ship is lying, the moment will try to bring the ship upright."
+                android:textAlignment="center"
+                android:layout_alignParentStart="true"
+                android:textSize="18dp"
+                android:layout_margin="10dp"/>
+
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

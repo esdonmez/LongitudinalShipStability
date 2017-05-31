@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.esdonmez.esd.longitudinalshipstability.MainActivity">
+    tools:context="com.esdonmez.esd.longitudinalshipstability.TransverseStabilityActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -17,7 +17,7 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:textAlignment="center"
-            android:text="@string/app_name"
+            android:text="Transverse Stability"
             android:textColor="#fff"
             android:textSize="20sp"/>
 
@@ -43,7 +43,7 @@
                 android:layout_marginRight="1dp"
                 android:layout_marginBottom="1dp"
                 android:background="#d8303f"
-                android:id="@+id/dimensionButton">
+                android:id="@+id/introductionButton">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -52,7 +52,27 @@
                     android:textAlignment="center"
                     android:textColor="#fff"
                     android:textSize="20sp"
-                    android:text="Dimensions of Ships"/>
+                    android:text="Introduction"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#af2532"
+                android:id="@+id/buoyancyButton">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:text="Center of Buoyancy"/>
 
             </RelativeLayout>
 
@@ -72,7 +92,7 @@
                 android:layout_marginBottom="1dp"
                 android:layout_marginTop="1dp"
                 android:background="#af2532"
-                android:id="@+id/longitudinalButton">
+                android:id="@+id/gravityButton">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -81,7 +101,28 @@
                     android:textAlignment="center"
                     android:textColor="#fff"
                     android:textSize="20sp"
-                    android:text="Longitudinal Stability"/>
+                    android:text="Center of Gravity"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="1dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#d8303f"
+                android:id="@+id/kgButton">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:text="KG - KB"/>
 
             </RelativeLayout>
 
@@ -98,9 +139,9 @@
                 android:layout_height="match_parent"
                 android:layout_weight="1"
                 android:layout_marginRight="1dp"
-                android:layout_marginTop="1dp"
+                android:layout_marginBottom="1dp"
                 android:background="#d8303f"
-                android:id="@+id/transverseButton">
+                android:id="@+id/heightButton">
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -109,7 +150,27 @@
                     android:textAlignment="center"
                     android:textColor="#fff"
                     android:textSize="20sp"
-                    android:text="Transverse Stability"/>
+                    android:text="Metacentre and Metacentric Height"/>
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_marginLeft="1dp"
+                android:layout_marginBottom="1dp"
+                android:background="#af2532"
+                android:id="@+id/armButton">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:textAlignment="center"
+                    android:textColor="#fff"
+                    android:textSize="20sp"
+                    android:text="Righting Arm (GZ)"/>
 
             </RelativeLayout>
 

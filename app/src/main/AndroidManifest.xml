@@ -28,7 +28,20 @@
         <activity android:name=".LCGActivity" />
         <activity android:name=".LCFActivity" />
         <activity android:name=".TrimActivity" />
-        <activity android:name=".TrimChangeActivity"></activity>
+        <activity android:name=".TrimChangeActivity" />
+        <activity android:name=".LongitudinalStabilityActivity" />
+        <activity android:name=".DimensionsOfShipsActivity" />
+        <activity android:name=".TransverseStabilityActivity" />
+        <activity android:name=".LongitudinalIntroductionActivity" />
+        <activity android:name=".BreadthActivity" />
+        <activity android:name=".DepthActivity" />
+        <activity android:name=".DraughtActivity" />
+        <activity android:name=".CenterOfBuoyancyActivity" />
+        <activity android:name=".CenterOfGravityActivity" />
+        <activity android:name=".TransverseStabilityIntroductionActivity" />
+        <activity android:name=".KGKBActivity" />
+        <activity android:name=".MetacentreMetacentricHeightActivity" />
+        <activity android:name=".RightingArmActivity"></activity>
     </application>
 
 </manifest>

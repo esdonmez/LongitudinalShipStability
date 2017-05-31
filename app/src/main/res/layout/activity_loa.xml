@@ -18,7 +18,7 @@
             android:layout_height="match_parent"
             android:gravity="center_vertical"
             android:textAlignment="center"
-            android:text="LOA, LBP, LWL"
+            android:text="LOA, LBP"
             android:textColor="#fff"
             android:textSize="20sp"/>
 
